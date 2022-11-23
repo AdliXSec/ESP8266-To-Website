@@ -45,7 +45,7 @@ void loop() {             // Wait 50ms between pings (about 20 pings/sec). 29ms 
 
   String Link;
   HTTPClient http;
-  Link = "http://192.168.1.5/ESP8266-To-Website/ceksensor.php?data=" + String(sonar.ping_cm());
+  Link = "http://192.168.1.5/ESP8266-To-Website/dataout.php?data=" + String(sonar.ping_cm());
 
   http.begin(client, Link);
   http.GET();

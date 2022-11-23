@@ -1,5 +1,11 @@
 ## Connect ESP8266 To Website
 
+## Scema and Code
+
+<center><img src="skema.jpg" width="300"></center>
+
+// No Full Code
+
 ```cpp
 void setup() {
   Serial.begin(115200); // Open serial monitor at 115200 baud to see ping results.
